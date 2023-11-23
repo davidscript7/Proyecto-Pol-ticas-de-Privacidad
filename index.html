@@ -1,0 +1,433 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Language Switch</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+
+<header id="main-header">
+   <div class="container-logo-btns">
+     <img id="item1"
+       src="https://res.cloudinary.com/dyxudpchn/image/upload/v1698186913/bychat/eizswqjqfp9k7zbvprii.png">
+     <div class="langWrap">
+       <a id="btn_en" href="javascript:void(0);">ENGLISH</a>
+       <a id="btn_esp" href="javascript:void(0);" class="active">ESPAÑOL</a>
+     </div>
+   </div>
+   <div>
+     <button>
+       <img class="header-item2"
+         src="https://res.cloudinary.com/dyxudpchn/image/upload/v1698186913/bychat/hzt3msokj0mxmpkxbrqf.png">
+     </button>
+     <h1 class="header-item">Privacy Policy</h1>
+     <br>
+     <div class="header-content">
+       <img class="line-img"
+         src="https://res.cloudinary.com/dyxudpchn/image/upload/v1698186914/bychat/fec4cnn5mrwjom1bxq5m.png">
+       <h2>Discover</h2>
+       <img class="line-img"
+         src="https://res.cloudinary.com/dyxudpchn/image/upload/v1698186914/bychat/fec4cnn5mrwjom1bxq5m.png">
+     </div>
+   </div>
+ </header>
+ <div id="contenedor">
+   <div id="menu">
+     <ul>
+       <li>
+         <button id="boton1" class="boton" onclick="mostrarTexto(0)">
+           Introducción
+         </button>
+       </li>
+       <li>
+         <button id="boton2" class="boton" onclick="mostrarTexto(1)">
+           Requisitos usuario
+         </button>
+       </li>
+       <li>
+         <button id="boton3" class="boton" onclick="mostrarTexto(2)">
+           Cambios politica privacidad
+         </button>
+       </li>
+       <li>
+         <button id="boton4" class="boton" onclick="mostrarTexto(3)">
+           Exclusion responsabilidad
+         </button>
+       </li>
+       <li>
+         <button id="boton5" class="boton" onclick="mostrarTexto(4)">
+           Recopilación información
+         </button>
+       </li>
+       <li>
+         <button class="boton" id="boton6" onclick="mostrarTexto(5)">
+           Uso información
+         </button>
+       </li>
+       <li>
+         <button id="boton7" class="boton" onclick="mostrarTexto(6)">
+           Compartir información terceros
+         </button>
+       </li>
+       <li>
+         <button id="boton8" class="boton" onclick="mostrarTexto(7)">
+           Divulgación información
+         </button>
+       </li>
+       <li>
+         <button id="boton9" class="boton" onclick="mostrarTexto(8)">
+           Seguridad información
+         </button>
+       </li>
+       <li>
+         <button id="boton10" class="boton" onclick="mostrarTexto(9)">
+           Politica menores
+         </button>
+       </li>
+       <li>
+         <button id="boton11" class="boton" onclick="mostrarTexto(10)">
+           Opciones relativas a su información
+         </button>
+       </li>
+       <li>
+         <button id="boton12" class="boton" onclick="mostrarTexto(11)">
+           Cookies
+         </button>
+       </li>
+       <li>
+         <button id="boton13" class="boton" onclick="mostrarTexto(12)">
+           Pongase en contacto con nosotros
+         </button>
+       </li>
+     </ul>
+   </div>
+   <section id="contenido">
+     <div class="seccion ocultar" id="privacy-policy-text" lang="es">
+     </div>
+     <div class="seccion animate__animated" id="introduction">
+       <h2><strong>Última actualización – 22 JUNIO 2023</strong></h2>
+       <p>
+         <strong>BYCHAT</strong>
+         ("nosotros" o "nuestro") respeta la privacidad de nuestros usuarios ("usuario" o "usted"). Esta Política
+         de Privacidad explica cómo recopilamos, utilizamos, divulgamos y almacenamos su información cuando visita
+         nuestra aplicación móvil (la "Aplicación"). Lea atentamente esta Política de privacidad. SI NO ESTÁ DE
+         ACUERDO CON LOS TÉRMINOS DE ESTA POLÍTICA DE PRIVACIDAD, NO ACCEDA A LA APLICACIÓN.
+         Puede retirar su consentimiento en cualquier momento. Dependiendo de su jurisdicción, puede hacerlo
+         utilizando una opción especial en su perfil o dirigiéndose a nuestro equipo de soporte desde su perfil.
+         Pero tenga en cuenta que en este caso tendremos que eliminar su perfil y no podrá utilizarlo.
+     </div>
+     <div class="seccion animate__animated ocultar" id="user-requirements">
+       Recuerde que Solamente puede hacerse miembro de BYCHAT o usar sus servicios si es mayor de 18 años o
+       cualquier otra edad considerada como mayoría de edad en su país de residencia si esta es mayor que 18.
+     </div>
+     <div class="seccion animate__animated ocultar" id="changes-to-privacy-policy">
+       Nos reservamos el derecho a realizar cambios en esta Política de Privacidad en cualquier momento y por
+       cualquier motivo. Le avisaremos de cualquier cambio actualizando la fecha de "Última actualización" de esta
+       Política de Privacidad. Le recomendamos que revise periódicamente esta Política de Privacidad para
+       mantenerse informado de las actualizaciones. Se considerará que ha sido informado, que está sujeto a los
+       cambios de cualquier Política de Privacidad revisada y que los ha aceptado si sigue utilizando la Aplicación
+       después de la fecha de publicación de dicha Política de Privacidad revisada.
+
+     </div>
+     <div class="seccion animate__animated ocultar" id="exclusion-of-responsibility"> Esta Política de Privacidad no
+       se aplica a la tienda en línea/móvil de terceros desde la que instale la Aplicación o realice pagos,
+       incluidos los artículos virtuales del juego, que también pueden recopilar y utilizar datos sobre usted. No
+       nos hacemos responsables de los datos recogidos por dichos terceros.
+       Procesaremos los datos personales que nos transfiera activamente mediante sus entradas. Además, trataremos
+       los datos personales de forma automatizada, en función del uso de nuestro servicio. Particularmente en los
+       casos que se indican a continuación, sus datos personales podrán ser tratados.
+       <ul>
+         <li>Visitando nuestro sitio web</li>
+         <li>Crear una cuenta de cliente</li>
+         <li>Contactar con otros usuarios o con nosotros</li>
+         <li>Boletines por correo electrónico</li>
+         <li>Se acerca a nosotros</li>
+         <li>Chats, acercamientos a otros usuarios</li>
+         <li>Análisis de las motivaciones de los usuarios para visitar nuestro sitio web y cómo lo utilizan</li>
+         <li>Análisis del éxito de nuestras medidas publicitarias</li>
+         <li>Personalización de medidas publicitarias</li>
+         <li>Defensa contra ataques a nuestra infraestructura técnica</li>
+       </ul>
+       Para obtener más información, consulte las siguientes explicaciones.
+     </div>
+     <div class="seccion animate__animated ocultar" id="collection-of-information">
+       <h2>RECOPILACIÓN DE SU INFORMACIÓN</h2>
+       Podemos recopilar información sobre usted de diversas formas. La información que podemos recopilar a través
+       de la Aplicación depende del contenido y los materiales que utilice, e incluye:
+       <ul>
+         <li>
+           <strong>Datos personales</strong>
+         </li>
+         <li>
+           Información demográfica y otra información de identificación personal (como su nombre, género, fecha
+           de nacimiento, correo electrónico, foto de perfil y número de teléfono) que usted nos proporciona
+           voluntariamente cuando elige participar en diversas actividades relacionadas con la Aplicación, como
+           chatear, publicar mensajes, enviar comentarios y responder a encuestas. Si decide compartir datos
+           sobre usted a través de su perfil, chat en línea u otras áreas interactivas de la Aplicación, tenga en
+           cuenta que todos los datos que revele en estas áreas son públicos y sus datos serán accesibles para
+           cualquier persona que acceda a la Aplicación. Su nombre, foto de perfil, número de teléfono y otros
+           datos básicos se mostrarán en la Admin App o panel de administración.
+         </li>
+         <li>
+           <strong>Recuerde que</strong>: Cuando publica información sobre usted o utiliza la mensajería, la
+           cantidad de datos personales que comparte es bajo su propio riesgo. Si publica algo que no se ajusta a
+           nuestros Términos, nos reservamos el derecho de cancelar su cuenta.
+         </li>
+       </ul>
+       <h2><strong>Datos derivados</strong></h2>
+       Información que nuestros servidores recopilan automáticamente cuando usted accede a la Aplicación, como sus
+       acciones nativas que forman parte integrante de la Aplicación, incluido el hecho de que le guste, vuelva a
+       publicar en un blog o responda a una publicación, así como otras interacciones con la Aplicación y otros
+       usuarios a través de archivos de registro del servidor.
+       <h2><strong>Permisos de contacto</strong></h2>
+       La Aplicación puede acceder por defecto a la lista de contactos de su dispositivo, lo que le permite
+       seleccionar un contacto con el que iniciar un chat. Su lista de contactos no se carga en nuestro servidor.
+       Todos los contactos guardados en su dispositivo se envían uno a uno al servidor para comprobar si el
+       contacto ya está registrado como usuario en la base de datos, pero nunca se ha cargado en la lista de
+       contactos. Sólo es visible dentro del propio dispositivo.
+       <h2><strong>Permisos de grabación de audio</strong></h2>
+       La aplicación necesita permisos de grabación de Audio para prestar los servicios de mensajes de voz y. Los
+       servicios de audio sólo están activos durante el envío de mensajes de voz que se utiliza en la aplicación.
+       <h2><strong>Galería y permisos de almacenamiento</strong></h2>
+       Podemos solicitar acceso o permiso a la galería y al almacenamiento móvil para recoger o guardar datos
+       multimedia de su dispositivo si usted lo solicita para compartir dentro de una conversación o chat con otro
+       usuario.
+       <h2><strong>Acceso a dispositivos móviles</strong></h2>
+       Podemos solicitar acceso o permiso a determinadas funciones de su dispositivo móvil, como almacenamiento,
+       contactos, galería, cámara, micrófono, etc. Si desea cambiar nuestro acceso o permisos, puede hacerlo en la
+       configuración de su dispositivo.
+       <h2><strong>Información del dispositivo móvil</strong></h2>
+       Información del dispositivo, como el número de identificación, el modelo y el fabricante de su dispositivo
+       móvil, la versión de su sistema operativo, el número de teléfono, el país, la ubicación y cualquier otro
+       dato que decida proporcionarnos.
+       <h2><strong>Notificaciones Push</strong></h2>
+       Podemos solicitarle que nos envíe notificaciones push relativas a su cuenta o a la Aplicación. Si no desea
+       recibir este tipo de comunicaciones, puede desactivarlas en la configuración de su dispositivo.
+     </div>
+     <div class="seccion animate__animated ocultar" id="use-of-information">
+       <h2><strong>USO DE SU INFORMACIÓN</strong></h2>
+       Disponer de información precisa sobre usted nos permite ofrecerle una experiencia fluida, eficiente y
+       personalizada. En concreto, podemos utilizar la información recopilada sobre usted a través de la Aplicación
+       para:
+       <ol>
+         <li>Administrar sorteos, promociones y concursos.</li>
+         <li>Ayudar a las fuerzas de seguridad y responder a citaciones judiciales.</li>
+         <li>Recopilar datos y análisis estadísticos anónimos para su uso interno o con terceros.</li>
+         <li>Crear y gestionar su cuenta.</li>
+         <li>Enviarle publicidad dirigida, cupones, boletines informativos y otra información relativa a
+           promociones y a la Aplicación.</li>
+         <li>Enviarle correos electrónicos sobre su cuenta o pedido.</li>
+         <li>Permitir las comunicaciones entre usuarios.</li>
+         <li>Cumplir y gestionar compras, pedidos, pagos y otras transacciones relacionadas con la Aplicación.
+         </li>
+         <li>Generar un perfil personal para personalizar futuras visitas a la Aplicación.</li>
+         <li>Aumentar la eficacia y el funcionamiento de la Aplicación.</li>
+         <li>Supervisar y analizar el uso y las tendencias para mejorar su experiencia con la Aplicación.</li>
+         <li>Notificarle las actualizaciones de la Aplicación.</li>
+         <li>Ofrecerle nuevos productos, servicios, aplicaciones móviles y/o recomendaciones.</li>
+         <li>Realizar otras actividades comerciales según sea necesario.</li>
+         <li>Prevenir transacciones fraudulentas, vigilar contra robos y proteger contra actividades delictivas.
+         </li>
+         <li>Procesar pagos y reembolsos.</li>
+         <li>Solicitar comentarios y ponerse en contacto con usted acerca de su uso de la Aplicación.</li>
+         <li>Resolver disputas y solucionar problemas.</li>
+         <li>Responder a las solicitudes de productos y de servicio al cliente.</li>
+         <li>Enviarle un boletín informativo.</li>
+         <li>Solicitar apoyo para la Aplicación.</li>
+       </ol>
+     </div>
+     <div class="seccion animate__animated ocultar" id="sharing-of-information-with-third-parties">
+       <h2><strong>¿Con quién comparte información BYCHAT?</strong></h2>
+       Compartimos tus datos con las siguientes categorías de terceros:
+       <ul>
+         <li>Empresas de tecnología de la información (hardware y software) que brindan servicios para respaldar
+           nuestros productos.</li>
+         <li>Proveedores de prevención de fraude y antispam para proteger el servicio de actividades delictivas.
+         </li>
+         <li>Moderadores para supervisar la actividad en el sitio web y las aplicaciones y aprobar contenido.</li>
+         <li>Socios publicitarios, mercados y proveedores de publicidad dirigida.</li>
+         <li>Las fuerzas de seguridad, donde la ley nos exige o para proteger los intereses vitales de una
+           persona.</li>
+         <li>Compañías de procesamiento de pagos y telecomunicaciones para facilitar los pagos de nuestros
+           servicios premium.</li>
+       </ul>
+     </div>
+     <div class="seccion animate__animated ocultar" id="disclosure-of-information">
+       <h2>DIVULGACIÓN DE SU INFORMACIÓN</h2>
+       Podemos compartir la información que hemos recopilado sobre usted en determinadas situaciones. Su
+       información puede ser divulgada de la siguiente manera:
+       <ul>
+         <li><strong>Por ley o para proteger derechos</strong>: Si creemos que la divulgación de información sobre
+           usted es necesaria para responder a un proceso legal, para investigar o remediar posibles violaciones
+           de nuestras políticas, o para proteger los derechos, la propiedad y la seguridad de los demás, podemos
+           compartir su información según lo permitido o requerido por cualquier ley, norma o reglamento
+           aplicable. Esto incluye el intercambio de información con otras entidades para la protección contra el
+           fraude y la reducción del riesgo de crédito.</li>
+         <li><strong>Terceros proveedores de servicios</strong>: Podemos compartir su información con terceros que
+           presten servicios para nosotros o en nuestro nombre, como procesamiento de pagos, análisis de datos,
+           envío de correo electrónico, servicios de alojamiento, atención al cliente y asistencia en marketing.
+         </li>
+         <li><strong>Comunicaciones de marketing</strong>: Con su consentimiento, o con la oportunidad de retirar
+           su consentimiento, podemos compartir su información con terceros para fines de marketing, según lo
+           permitido por la ley.</li>
+         <li><strong>Interacciones con otros usuarios</strong>: Si usted interactúa con otros usuarios de la
+           Aplicación, dichos usuarios podrán ver su nombre, foto de perfil y descripciones de su actividad,
+           incluyendo el envío de invitaciones a otros usuarios, chatear con otros usuarios.</li>
+         <li><strong>Anunciantes externos</strong>: Podemos utilizar empresas de publicidad de terceros para
+           publicar anuncios cuando visite la Aplicación. Estas empresas pueden utilizar la información sobre sus
+           visitas a la Aplicación y a otros sitios web contenida en las cookies para ofrecerle anuncios sobre
+           productos y servicios de su interés.</li>
+         <li><strong>Afiliados</strong>: Podemos compartir su información con nuestras filiales, en cuyo caso
+           exigiremos a dichas filiales que respeten la presente Política de Privacidad. Las filiales incluyen
+           nuestra empresa matriz y cualquier filial, empresa conjunta u otras empresas que controlemos o que
+           estén bajo control común con nosotros.</li>
+         <li><strong>Socios comerciales</strong>: Podemos compartir su información con nuestros socios comerciales
+           para ofrecerle determinados productos, servicios o promociones.</li>
+         <li><strong>Otros terceros</strong>: Podemos compartir su información con anunciantes e inversores con el
+           fin de realizar análisis comerciales generales. También podemos compartir su información con dichos
+           terceros con fines de marketing, según lo permita la ley.</li>
+       </ul>
+       <strong>Venta o quiebra</strong>: Si reorganizamos o vendemos todos o parte de nuestros activos, nos
+       fusionamos o somos adquiridos por otra entidad, podemos transferir su información a la entidad sucesora. Si
+       quebramos o entramos en quiebra, su información sería un activo transferido o adquirido por un tercero.
+       Usted reconoce que dichas transferencias pueden producirse y que el cesionario puede declinar el
+       cumplimiento de los compromisos que asumimos en esta Política de Privacidad.
+       No somos responsables de las acciones de terceros con los que comparta datos personales o sensibles, y no
+       tenemos autoridad para gestionar o controlar las solicitudes de terceros. Si no desea seguir recibiendo
+       correspondencia, correos electrónicos u otras comunicaciones de terceros, usted es responsable de ponerse en
+       contacto directamente con el tercero.
+     </div>
+     <div class="seccion animate__animated ocultar" id="security-of-information">
+       <h2><strong>SEGURIDAD DE SU INFORMACIÓN</strong></h2>
+       BYCHAT ha implementado adecuadas medidas de seguridad para proteger y evitar la pérdida, alteración y mal
+       uso de información bajo nuestro control, incluyendo tus datos personales. Nuestros técnicos trabajan
+       arduamente para garantizar una navegación segura en nuestra página.
+       Utilizamos medidas de seguridad administrativas, técnicas y físicas para ayudar a proteger su información
+       personal. Aunque hemos tomado medidas razonables para asegurar la información personal que nos proporciona,
+       tenga en cuenta que, a pesar de nuestros esfuerzos, ninguna medida de seguridad es perfecta o impenetrable,
+       y ningún método de transmisión de datos puede garantizarse contra cualquier interceptación u otro tipo de
+       uso indebido. Cualquier información divulgada en línea es vulnerable a la interceptación y al uso indebido
+       por parte de terceros no autorizados. Por lo tanto, no podemos garantizarle una seguridad total si facilita
+       información personal.
+     </div>
+     <div class="seccion animate__animated ocultar" id="policy-for-children">
+       <h2>POLÍTICA PARA MENORES</h2>
+       No solicitamos conscientemente información a menores de 18 años ni comercializamos con ellos.
+       Solo puede registrarse en BYCHAT o usar sus funciones si tiene 18 años o más. Eso significa que BYCHAT no
+       recopila a sabiendas ninguna información sobre niños, menores o cualquier persona menor de edad. Tampoco
+       comercializamos deliberadamente a niños, menores o cualquier persona menor de 18 años. Si tiene menos de 18
+       años, le solicitamos que no nos envíe información. Si nos damos cuenta de que un niño, menor o cualquier
+       persona menor de 18 años se ha registrado con nosotros y nos ha proporcionado datos personales, tomaremos
+       medidas para cancelar el registro de esa persona y eliminar la información de su perfil de BYCHAT. Si
+       eliminamos un perfil porque violó nuestras reglas de prohibición de niños, podemos conservar su correo
+       electrónico y dirección IP para asegurarnos de que no intente eludir nuestras reglas creando un nuevo
+       perfil.
+       Si tiene conocimiento de que hemos recopilado datos de menores de 18 años póngase en contacto con nosotros a
+       través de la información de contacto que se facilita a continuación.
+       <strong>INFO@BYCHAT.CO</strong>
+     </div>
+     <div class="seccion animate__animated ocultar" id="options-regarding-your-information">
+       <h2>OPCIONES RELATIVAS A SU INFORMACIÓN</h2>
+       <strong>Información de la cuenta</strong>
+       En cualquier momento puede revisar o modificar la información de su cuenta o cancelarla:
+       <ul>
+         <li>Accediendo a la configuración de su cuenta y actualizándola</li>
+         <li>Poniéndose en contacto con nosotros a través de los datos que se indican a continuación</li>
+       </ul>
+       Si solicita cancelar su cuenta, la desactivaremos o eliminaremos de nuestras bases de datos activas. No
+       obstante, es posible que conservemos cierta información en nuestros archivos para evitar fraudes, solucionar
+       problemas, ayudar en investigaciones, hacer cumplir nuestras Condiciones de uso y/o cumplir con requisitos
+       legales.
+       <strong>Notificación de abusos, marcas registradas y otras infracciones de la propiedad intelectual</strong>
+       El abuso, la violación de marcas registradas y otras infracciones de la propiedad intelectual son
+       intolerables. Para denunciar contenidos abusivos, marcas registradas u otras infracciones de la propiedad
+       intelectual, haga clic en "Denunciar" en la Sala de chat para enviarnos la denuncia. Podremos tomar medidas
+       con respecto a su cuenta, incluida la desactivación o suspensión de la misma, en caso de infracción clara,
+       grave o reiterada de contenidos abusivos o cuando nos veamos obligados a hacerlo por motivos legales. La
+       desactivación o suspensión de su cuenta se realizará de conformidad.
+       <strong>Correos electrónicos y comunicaciones</strong>
+       Si no desea seguir recibiendo correspondencia, correos electrónicos u otras comunicaciones nuestras, puede
+       darse de baja.
+       <ul>
+         <li>Anotar sus preferencias en el momento de registrar su cuenta en la Aplicación.</li>
+         <li>Accediendo a la configuración de su cuenta y actualizando sus preferencias.</li>
+         <li>Ponerse en contacto con nosotros utilizando la información de contacto proporcionada a continuación
+         </li>
+       </ul>
+       Si no desea seguir recibiendo correspondencia, correos electrónicos u otras comunicaciones de terceros,
+       usted es responsable de ponerse en contacto directamente con el tercero.
+     </div>
+     <div class="seccion animate__animated ocultar" id="cookies">
+       <strong>¿Qué son las cookies y cuáles usa BYCHAT?</strong>
+       Recolectamos información por medio de cookies en tu ordenador o tu móvil. Una cookie es un fragmento de
+       información que se almacena en el navegador de tu ordenar o tu móvil. Estos fragmentos recopilan información
+       sobre visitas a sitios web, reconocen las preferencias del usuario cada vez que accede a BYCHAT y facilitan
+       que disfrute de los servicios requeridos.
+       Cuando visitas las diferentes secciones de BYCHAT, se coloca una cookie de sesión en tu ordenador durante el
+       tiempo que utilices la página. También colocamos cookies de persistencia (también conocidas como
+       dispositivos de almacenamiento local) en los equipos de nuestros usuarios, para que BYCHAT las reconozca y
+       haga que el inicio de sesión sea más rápido y fácil.
+       Del mismo modo, podemos usar cookies de persistencia en tu móvil, por razones de protección de seguridad
+       como prevención contra estafadores, registros de acceso no autorizados y para ayudarte a acceder a tu cuenta
+       hackeada. No utilizamos ninguna información cuando has cerrado la sesión.
+       Puedes configurar tu navegador y tu móvil/celular para bloquear las cookies y el almacenamiento de
+       información. Pero si lo haces, puedes no tener acceso a alguna de las funciones que BYCHAT ofrece.
+       El uso de cookies y el almacenamiento de información por parte de BYCHAT se divide en estas categorías:
+       <ol>
+         <li>Cookies que son estrictamente necesarias para enviar los servicios y productos requeridos, tales como
+           la obtención de BYCHAT Premium;</li>
+         <li>Cookies relacionadas con el funcionamiento de BYCHAT, tales como los análisis que nos ayudan a
+           determinar cómo nuestra aplicación y página asegura un correcto funcionamiento, sin problemas, para
+           nuestros usuarios;</li>
+         <li>Cookies relacionadas con la funcionalidad de BYCHAT, como el recordatorio de tus preferencias al
+           iniciar tu sesión o el lenguaje seleccionado o aquellas que te posibilitan chatear, añadir fotos y
+           enviar mensajes a los usuarios de BYCHAT;</li>
+         <li>Cookies de terceros que enlazan a otras redes sociales y que solicitas por medio de complementos
+           sociales;</li>
+         <li>Cookies cuyo objetivo consiste en mejorar y personalizar la publicidad que recibes en base al
+           contenido que más se ajusta a tu perfil, mejorar la información recopilada sobre campañas
+           publicitarias, y evitar mostrarte anuncios que ya hayas visto.</li>
+       </ol>
+
+       BYCHAT utiliza cookies y dispositivos de almacenamiento local para tener la posibilidad de conocerte y saber
+       cuáles son tus intereses, además para darte la posibilidad de hacer lo que más te gusta: chatear, hacer
+       contactos nuevos, compartir tu contenido o comprar BYCHAT Premium. Comprueba las funciones de las cookies de
+       BYCHAT a continuación:
+       Estas cookies facilitan que nuestros usuarios de BYCHAT disfruten de la página, chateen, suban fotografías,
+       tengan acceso a mensajes, a la configuración de su cuenta o puedan predefinir BYCHAT como su página de
+       inicio. Por su parte, el uso de cookies ayuda a mejorar la experiencia de usuario tales como links a otras
+       redes sociales o contenido audiovisual para que puedas compartirlo con tus redes sociales favoritas.
+       En algunos casos, algunas de las funciones de la página pueden implicar a una tercera parte que emplace
+       cookies en tu ordenador. Esa tercera parte será responsable a la hora de procesar esos datos; por ello
+       BYCHAT te recomienda que leas su política de privacidad. Esas terceras partes que pueden emplazar cookies en
+       tu dispositivo son:
+       <strong>Estudio y análisis</strong>
+       BYCHAT usa Google Analytics para recabar información sobre cómo los usuarios usan BYCHAT. Usamos la
+       información para recopilar informes y mejorar la página. Las cookies recogen información de forma anónima,
+       incluyendo el número de visitas de la página, de dónde vienen esas visitas y qué páginas visitan. Para más
+       información sobre la política de privacidad de Google, visita <a href="http://www.google.com/intl/en/policies/"
+         target="_blank">http://www.google.com/intl/en/policies/</a>
+       <strong>Autenticación</strong>
+       Estas cookies nos ayudan a identificar a nuestros usuarios, lo que les permitirá disfrutar de una serie de
+       ofertas y funciones tales como subir fotografías, chatear y nos permite adaptar nuestra página a cada uno de
+       ellos. Este mecanismo se pondrá en funcionamiento al elegir la opción "Recordarme" a la hora del registro.
+       Por último, estas cookies permitirán saber quién te invitó a BYCHAT.
+       <strong>Seguridad e integridad de la página</strong>
+       Usamos cookies y otros dispositivos, tales como CAPTCHAs, para ayudar a mantener la seguridad de los
+       usuarios de BYCHAT. Estas cookies protegen a los usuarios de BYCHAT de amenazas de spam o fraude, a la vez
+       que proporcionan seguridad ante cualquier compra en BYCHAT por cosas como BYCHAT Premium.
+       Podemos hacer uso de cookies permanentes, que nos permitirán identificar, por ejemplo, que un mismo
+       dispositivo contiene el acceso a una misma cuenta. Estos tipos de cookies ayudan a prevenir casos de spam,
+       phishers, estafadores, registros no autorizados o intentos de hackeos en tu cuenta.
+     </div>
+     <div class="seccion animate__animated ocultar" id="contact-us">
+       <strong>PÓNGASE EN CONTACTO CON NOSOTROS</strong>
+       Si tiene preguntas o comentarios sobre esta Política de Privacidad, póngase en contacto con nosotros en
+       <strong>INFO@BYCHAT.CO</strong> </p>
+     </div>
+   </section>
+ </div>            
+</body>
+<script src="./js/script.js"></script>
+</html>
